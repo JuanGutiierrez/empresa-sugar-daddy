@@ -4,6 +4,7 @@ import './App.css'
 import Header from './documents/helpers/Header'
 import Main from './documents/layouts/Main'
 import Footer from './documents/helpers/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   const [count, setCount] = useState(0)

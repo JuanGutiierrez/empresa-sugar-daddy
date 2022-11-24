@@ -4,6 +4,8 @@ const Main = () => {
     return(
         <main id="contMain">
             <Section />
+            <Section />
+            <Section />
         </main>
     )
 }

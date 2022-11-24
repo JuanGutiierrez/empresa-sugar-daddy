@@ -2,7 +2,9 @@
   mossy garden: #e0eddb
   Steamed milk: #faf5ef
   High chaparral: #c8b5a7*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -17,9 +19,16 @@ body{
   height: 7%;
 }
 
+#sectionApp{
+  height: 100%;
+  width: 100%;
+}
+
 #contMain{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   border: black solid 1px;
   width: 99.9%;
   height: 80vh;
@@ -32,4 +41,21 @@ body{
   margin: 10px;
   margin-left: 50px;
 }
+
+#contSection{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  border: black solid 1px;
+}
+
+#footer{
+  background-color: #e0eddb;
+  padding: 1em 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 

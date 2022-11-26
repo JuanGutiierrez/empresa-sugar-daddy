@@ -13,7 +13,7 @@ const FormAyudas = () => {
             <InputTienda />
             <InputCantidad />
             <InputValor />
-            <img /* id="img_form_ayudas" */ src="../../src/img-central.png" alt="" />
+            <img src="../../src/img-central.png" alt="" />
         </form>
     )
 }

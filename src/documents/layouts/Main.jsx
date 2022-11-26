@@ -4,7 +4,7 @@ const Main = () => {
     return(
         <main id="contMain">
             <Section />
-            <Section />
+            <img id="img_central" src="../../src/img-central.png" alt="" />
             <Section />
         </main>
     )

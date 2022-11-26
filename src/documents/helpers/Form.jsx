@@ -7,13 +7,13 @@ import InputUniversidad from "./InputUniversidad"
 const Form = () => {
     return(
         <form action="" id="form">
-            <p>Datos</p>
+            <p>Datos de Beneficiarios</p>
             <InputNombre />
             <InputDireccion />
             <InputUniversidad />
             <InputEdad />
             <InputCorreo />
-            <img src="../../src/logo.jpg" alt="" />
+            <img id="img_form" src="../../src/img-form.jpg" alt="" />
         </form>
     )
 }

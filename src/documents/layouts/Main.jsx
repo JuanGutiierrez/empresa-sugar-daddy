@@ -1,11 +1,17 @@
+import ImgCentral from "../helpers/ImgCentral"
+import Article from "./Article"
+import ArticlePresupuesto from "./ArticlePresupuesto"
 import Section from "./Section"
 
 const Main = () => {
     return(
         <main id="contMain">
-            <Section />
-            <img id="img_central" src="../../src/img-central.png" alt="" />
-            <Section />
+            <section  id="contSect">
+                <Section />
+                <ImgCentral />
+                <Article />
+            </section>
+            <ArticlePresupuesto />
         </main>
     )
 }
